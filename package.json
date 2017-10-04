@@ -12,8 +12,8 @@
   },
   "files": [
     "index.js",
-    "leaflet-pip.js",
-    "leaflet-pip.min.js"
+    "dist/leaflet-pip.js",
+    "dist/leaflet-pip.min.js"
   ],
   "keywords": [
     "leaflet",

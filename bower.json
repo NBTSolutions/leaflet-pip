@@ -1,0 +1,24 @@
+{
+  "name": "@mapbox/leaflet-pip",
+  "version": "1.1.0",
+  "homepage": "https://github.com/mapbox/leaflet-pip",
+  "authors": [
+    "Tom MacWright <tom@macwright.org>"
+  ],
+  "description": "point in polygon searches for leaflet",  "main": "dist/leaflet-pip.js",
+  "keywords": [
+    "leaflet",
+    "plugin",
+    "point",
+    "in",
+    "polygon",
+    "geo",
+    "geographical"
+  ],
+  "license": "MIT",
+  "dependencies": {
+  },
+  "ignore": [
+    "node_modules"
+  ]
+}
