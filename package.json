@@ -8,7 +8,7 @@
     "test-unit": "browserify test/*.js | tape-run",
     "lint": "eslint index.js",
     "build-site": "browserify site/site.js > site/bundle.js",
-    "prepublish": "browserify -s leafletPip index.js > leaflet-pip.js && uglifyjs leaflet-pip.js -c -m > leaflet-pip.min.js"
+    "prepublish": "browserify -s leafletPip index.js > dist/leaflet-pip.js && uglifyjs dist/leaflet-pip.js -c -m > dist/leaflet-pip.min.js"
   },
   "files": [
     "index.js",
@@ -29,16 +29,16 @@
     "url": "git://github.com/mapbox/leaflet-pip.git"
   },
   "devDependencies": {
-    "browserify": "~13.0.1",
-    "eslint": "^2.2.0",
-    "phantomjs": "~2.1.7",
-    "tape": "~4.5.1",
-    "tape-run": "~2.1.4"
+    "browserify": "^14.4.0",
+    "eslint": "^4.8.0",
+    "phantomjs": "^2.1.7",
+    "tape": "^4.8.0",
+    "tape-run": "^3.0.0",
+    "uglify-js": "^3.1.3"
   },
   "author": "Tom MacWright <tom@macwright.org>",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "geojson-utils": "~1.1.0",
-    "uglify-js": "2.7.4"
+    "geojson-utils": "~1.1.0"
   }
 }
